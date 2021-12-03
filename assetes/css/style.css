@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300&display=swap');
+ :root {
+    --dark: #000;
+    --orange: #FF4900;
+    --white: #fff;
+}
+
+header {
+    background: var(--dark);
+}
+
+.brand-img {
+    height: 4rem;
+}
+
+.navbar-nav {
+    line-height: 4em !important;
+}
+
+.btn-dark,
+.btn-dark:hover,
+.btn-dark:active,
+.btn-dark:focus {
+    background: var(--orange) !important;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    background: var(--orange);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--white);
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: .5em;
+}
+
+#banner {
+    min-height: 100vh;
+    background: var(--dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
